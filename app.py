@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import streamlit as st
-key="AIzaSyDgkL5jUfoLvXk5v8Xe7USiYGpn0NwT_0w"
 
 import os
 
