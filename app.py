@@ -1,11 +1,12 @@
-import warnings 
-warnings.filterwarnings('ignore')
-from dotenv import load_dotenv
-load_dotenv()
+# import warnings 
+# warnings.filterwarnings('ignore')
+# from dotenv import load_dotenv
+# load_dotenv()
 
 import streamlit as st
 
 import os
+os.environ['GOOGLE_API_KEY'] = "AIzaSyDgkL5jUfoLvXk5v8Xe7USiYGpn0NwT_0w"
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 model = ChatGoogleGenerativeAI(model="gemini-pro")
