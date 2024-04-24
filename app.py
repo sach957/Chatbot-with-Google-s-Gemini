@@ -1,5 +1,3 @@
-import google.generativeai as genai
-
 import warnings 
 warnings.filterwarnings('ignore')
 from dotenv import load_dotenv
